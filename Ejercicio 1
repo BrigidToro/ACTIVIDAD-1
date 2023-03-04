@@ -1,0 +1,10 @@
+def calcular_edades(num_hijos,edad_juan):
+    edad_mama = num_hijos * edad_juan
+    edad_alberto = (2/3) * edad_juan
+    edad_ana = (4/3) * edad_juan
+    return (edad_mama, edad_juan, edad_alberto, edad_ana)
+edades = calcular_edades(3,27)
+print("Edad de la mamá:",edades[0])
+print("Edad de Juan:",edades[1])
+print("Edad de Alberto:",edades[2])
+print("Edad de Ana:",edades[3])
